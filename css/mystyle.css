@@ -1,0 +1,43 @@
+.splash {
+    background: url("../img/titlesplash.png") no-repeat center center;
+    background-position: center top;
+    background-size: cover;
+    padding-top: 19%;
+}
+
+.quickbtn {
+
+	background: transparent;
+	color: #F2F2F2;
+	-webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-o-transition: background .2s ease-in-out, border .2s ease-in-out;
+	transition: background .2s ease-in-out, border .2s ease-in-out;
+}
+body {
+    font-family: 'Georgia', serif;
+}
+.inventory {
+    background: #e3f2f7;
+    padding: 2em;
+}
+#inventory {
+    padding-bottom: 1em;
+}
+.itemdesc {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.profile {
+    max-height: 24em;
+    margin: auto;
+}
+
+#about-title {
+    padding: 1em;
+}
