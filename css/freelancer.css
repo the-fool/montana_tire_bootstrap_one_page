@@ -86,8 +86,8 @@ header {
 }
 
 header .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top:  80px;
+    padding-bottom: 5px;
 }
 
 header img {
@@ -264,10 +264,15 @@ section.success a.active {
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
-    font-size: 20px;
+    font-size: 11px;
     color: #fff;
     background: 0 0;
     transition: all .2s ease-in-out;
+}
+@media(min-width:767px) {
+   .btn-outline {
+        font-size: 20px;
+    }
 }
 
 .btn-outline:hover,

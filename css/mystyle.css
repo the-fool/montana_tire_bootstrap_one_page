@@ -1,8 +1,16 @@
 .splash {
     background: url("../img/titlesplash.png") no-repeat center center;
     background-position: center top;
-    background-size: cover;
-    padding-top: 19%;
+    background-size: 100%;
+    background-color: #E3F2F7;
+}
+
+@media(min-width: 470px){
+    .splash {
+        background-size: cover;
+         padding-top: 19%;
+    }
+
 }
 
 .quickbtn {
@@ -41,3 +49,4 @@ body {
 #about-title {
     padding: 1em;
 }
+
