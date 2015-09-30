@@ -17,7 +17,26 @@
         padding-top: 10%;
     }
 }
+h2 {
+    font-size: 20px;
+}
 
+
+@media(min-width: 440px) {
+    h2 {
+        font-size: 24px;
+    }
+}
+@media(min-width: 550px) {
+    h2 {
+        font-size: 32px;
+    }
+}
+@media(min-width: 800px) {
+    h2 {
+        font-size: 40px;
+    }
+}
 .quickbtn {
 
 	background: transparent;
